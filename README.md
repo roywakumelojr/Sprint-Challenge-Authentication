@@ -58,9 +58,9 @@ The JSON web token consists of the sub(Header), name(Payload) and iat(Signature)
 
 Implement an User Authentication System. Hash user's passwords before saving them to the database. Use `JSON Web Tokens` or `Sessions and Cookies` to persist authentication across requests.
 
-- [ ] Implement the `register` and `login` functionality inside `/auth/auth-router.js`. A `user` has `username` and `password`. Both properties are required.
-- [ ] Implement the `authenticate` middleware inside `/auth/authenticate-middleware.js`.
-- [ ] Write a **minimum of 2 tests** per API endpoint. Write more tests if you have time.
+- [X] Implement the `register` and `login` functionality inside `/auth/auth-router.js`. A `user` has `username` and `password`. Both properties are required.
+- [X] Implement the `authenticate` middleware inside `/auth/authenticate-middleware.js`.
+- [X] Write a **minimum of 2 tests** per API endpoint. Write more tests if you have time.
 
 **Note**: the database already has the users table, but if you run into issues, the migrations are available.
 
@@ -68,5 +68,5 @@ Implement an User Authentication System. Hash user's passwords before saving the
 
 Build a front end to show the jokes.
 
-- [ ] Add a React client that connects to the API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
+- [X] Add a React client that connects to the API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
 - [ ] Once you have the functionality down, style it!
